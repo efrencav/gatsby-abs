@@ -30,7 +30,7 @@ const ServiceSection = () => {
                                         <i className="flaticon-marketing"></i>
                                     </div>
                                     <div className="kservice-content">
-                                        <h5 className="kservice-content-title"><Link to="/service-details">Branding</Link></h5>
+                                        <h5 className="kservice-content-title"><Link to="/service-details">Branding <br/></Link></h5>
                                     </div>
                                 </div>
                             </div>
