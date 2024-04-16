@@ -54,7 +54,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                 <div className="side-info-content">
                     <div className="mm-menu">
                         <ul>
-                            <li className={home ? "has-droupdown active"}>
+                            <li className={home ? "has-droupdown active" : "has-droupdown"}}>
                                 <a onClick={() => { openMobileMenu('home'); }}>Home</a>
                             </li>
                             <li><Link to="/about">About</Link></li>
