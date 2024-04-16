@@ -93,15 +93,13 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                         <div className="contact-list mb-30">
                             <h4>Contact Info</h4>
                             <ul>
-                                <li><img src="/assets/img/icon/sidebar-icon-1.png" className="img-fluid" alt="icon-img" />86 broklyn street road, New York</li>
-                                <li><img src="/assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img" /><a href="mailto:info@sycho24.com">needhelp@company.com</a></li>
-                                <li><img src="/assets/img/icon/footer-icon-2.png" className="img-fluid" alt="icon-img" /><a href="tel:926668880000">92 666 888 0000</a></li>
+                                <li><img src="/assets/img/icon/sidebar-icon-1.png" className="img-fluid" alt="icon-img" />Houston, Texas</li>
+                                <li><img src="/assets/img/icon/footer-icon-1.png" className="img-fluid" alt="icon-img" /><a href="mailto:info@abstract-creative.com">info@abstract-creative.com</a></li>
+                                <li><img src="/assets/img/icon/footer-icon-2.png" className="img-fluid" alt="icon-img" /><a href="tel:8323707322">832-370-7322</a></li>
                             </ul>
                             <div className="sidebar__menu--social">
-                                <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-                                <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-p"></i></a>
-                                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/AbstractCreative" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/abstr8ct/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
