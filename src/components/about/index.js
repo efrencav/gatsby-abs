@@ -14,7 +14,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="About Abstract Cretive" breadcrumbSubTitle="About Us" />
+                <Breadcrumb breadcrumbTitle="About Us" breadcrumbSubTitle="About Us" />
                 <Mission />
                 <TestimonialSlider testimonial_space="testimonial-area pt-85 pb-85" />
                 {/* <FactSection fact_space="fact-area pb-85" /> */}
