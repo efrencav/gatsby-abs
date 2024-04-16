@@ -56,7 +56,6 @@ const BlogDetailsMain = () => {
                                     <p className="mb-35">5. Uniqueness: Being unique and creative can make your website stand out from the crowd. Don't be afraid to do something different from others. Including distinctive elements in your website and business can help to create a unique brand identity.
                                         By considering these factors, you can create a website that meets the needs of your audience, is mobile-friendly, stands out from the competition, and achieves your business goals.</p>
                                     <p className="mb-35">If you want the best solutions for your business and the best graphic design services in Houston, TX, click on the link below.</p>
-                                    </p>
                                 </div>
                             </div>
                             {/* <BlogInfo /> */}
