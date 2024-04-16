@@ -38,10 +38,7 @@ const Header = () => {
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li className="menu-item-has-children"><Link to="/">Home</Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li><Link to="/">Home</Link></li>
-                                                    <li><Link to="/homeTwo">Home Style 2</Link></li>
-                                                </ul> */}
+                                                
                                             </li>
                                             <li><Link to="/about">About</Link></li>
                                             <li className="menu-item-has-children"><Link to="/services">Services</Link>
