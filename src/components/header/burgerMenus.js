@@ -67,25 +67,12 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                                 </ul>
                             </li>
                             <li><Link to="/projects">Portfolio</Link></li>
-                            <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
-                                {/* <ul className={blog ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/blogs">Blog</Link></li>
-                                    <li><Link to="/blog-details">Blog Details</Link></li>
-                                </ul> */}
-                            </li>
-                            {/* <li className={pages ? "has-droupdown active" : "has-droupdown"}>
-                                <a onClick={() => { openMobileMenu('pages'); }}>Pages</a>
-                                <ul className={pages ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/pricing">Pricing</Link></li>
-                                    <li><Link to="/faqs">Faq</Link></li>
-                                    <li><Link to="/team">Team</Link></li>
-                                    <li><Link to="/team-details">Team Details</Link></li>
-                                    <li><Link to="/signin">SignIn</Link></li>
-                                    <li><Link to="/forgot-password">Forgot Password</Link></li>
-                                    <li><Link to="/signup">SignUp</Link></li>
-                                </ul>
-                            </li> */}
+                            <li><Link to="/blog">Blog</Link></li>
+                            // <li className={blog ? "has-droupdown active" : "has-droupdown"}>
+                            //     <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
+                                
+                            // </li>
+                            
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
