@@ -47,22 +47,15 @@ const BlogDetailsMain = () => {
                                         {/* <Link to="/blog-details"><i className="fal fa-user-circle"></i> {blogItem.user}</Link> */}
                                         {/* <Link to="/blog-details"><i className="fal fa-comments"></i> {blogItem.comments}</Link> */}
                                     </div>
-                                    <p className="mb-35">When designing a website, there are several things you need to consider to ensure that your website is effective, user-friendly, and visually appealing. Below are some of the essential factors to keep in mind:
-
-                                        1. Purpose and target audience: Determine the purpose of your site and the target audience. This will help you to create relevant content, navigation, and design that caters to your audience's needs.
-
-                                        2. Mobile responsiveness: With the increasing number of mobile device users, it is vital to design a mobile-friendly website. Google penalizes websites that are not mobile-responsive, and your site may have a lower search result ranking if it is not optimized for mobile devices.
-
-                                        3. Competitive analysis: Conduct a thorough analysis of your competitors and other businesses in the same industry. This can help you to identify areas where you can improve and find innovative ways to boost traffic to your site.
-
-                                        4. Time and monetary investment: Investing enough time and money is crucial when rebuilding a website. Ensure that the time you spend on designing the website is equal to your monetary investment.
-
-                                        5. Uniqueness: Being unique and creative can make your website stand out from the crowd. Don't be afraid to do something different from others. Including distinctive elements in your website and business can help to create a unique brand identity.
-
-                                        By considering these factors, you can create a website that meets the needs of your audience, is mobile-friendly, stands out from the competition, and achieves your business goals.
-
-                                        If you want the best solutions for your business and the best graphic design services in Houston, TX, click on the link below.
-
+                                    <p className="mb-35">When designing a website, there are several things you need to consider to ensure that your website is effective, user-friendly, and visually appealing. Below are some of the essential factors to keep in mind:</p>
+                                    <br />
+                                    <p className="mb-35">1. Purpose and target audience: Determine the purpose of your site and the target audience. This will help you to create relevant content, navigation, and design that caters to your audience's needs.</p>
+                                    <p className="mb-35">2. Mobile responsiveness: With the increasing number of mobile device users, it is vital to design a mobile-friendly website. Google penalizes websites that are not mobile-responsive, and your site may have a lower search result ranking if it is not optimized for mobile devices.</p>
+                                    <p className="mb-35">3. Competitive analysis: Conduct a thorough analysis of your competitors and other businesses in the same industry. This can help you to identify areas where you can improve and find innovative ways to boost traffic to your site.</p>
+                                    <p className="mb-35">4. Time and monetary investment: Investing enough time and money is crucial when rebuilding a website. Ensure that the time you spend on designing the website is equal to your monetary investment.</p>
+                                    <p className="mb-35">5. Uniqueness: Being unique and creative can make your website stand out from the crowd. Don't be afraid to do something different from others. Including distinctive elements in your website and business can help to create a unique brand identity.</p>
+                                        By considering these factors, you can create a website that meets the needs of your audience, is mobile-friendly, stands out from the competition, and achieves your business goals.</p>
+                                    <p className="mb-35">If you want the best solutions for your business and the best graphic design services in Houston, TX, click on the link below.</p>
                                     </p>
                                 </div>
                             </div>
