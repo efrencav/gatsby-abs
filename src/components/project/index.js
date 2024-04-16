@@ -9,7 +9,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="Projects" breadcrumbSubTitle="Portfolio" />
+                <Breadcrumb breadcrumbTitle="Portfolio" breadcrumbSubTitle="Portfolio" />
                 <ProjectTab />
             </main>
             <Footer />
