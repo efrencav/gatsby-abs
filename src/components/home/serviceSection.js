@@ -23,16 +23,7 @@ const ServiceSection = () => {
                     </div>
                     <div className="col-xxl-6 col-lg-6">
                         <div className="row custom-mar-20" data-aos="fade-down" data-aos-duration="1000">
-                            <div className="col-sm-6 custom-pad-20">
-                                <div className="kservice text-center mb-20">
-                                    <div className="kservice-icon">
-                                        <i className="flaticon-analytics"></i>
-                                    </div>
-                                    <div className="kservice-content">
-                                        <h5 className="kservice-content-title"><Link to="/service-details">Website <br />Design</Link></h5>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div className="col-sm-6 custom-pad-20">
                                 <div className="kservice text-center mb-20">
                                     <div className="kservice-icon">
@@ -60,6 +51,16 @@ const ServiceSection = () => {
                                     </div>
                                     <div className="kservice-content">
                                         <h5 className="kservice-content-title"><Link to="/service-details">Graphic <br />Design</Link></h5>
+                                    </div>
+                                </div>
+                            </div>
+                                <div className="col-sm-6 custom-pad-20">
+                                <div className="kservice text-center mb-20">
+                                    <div className="kservice-icon">
+                                        <i className="flaticon-analytics"></i>
+                                    </div>
+                                    <div className="kservice-content">
+                                        <h5 className="kservice-content-title"><Link to="/service-details">Website <br />Design</Link></h5>
                                     </div>
                                 </div>
                             </div>
