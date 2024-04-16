@@ -54,23 +54,19 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                 <div className="side-info-content">
                     <div className="mm-menu">
                         <ul>
-                            <li className={home ? "has-droupdown active" : "has-droupdown"}>
+                            <li className={home ? "has-droupdown active"}>
                                 <a onClick={() => { openMobileMenu('home'); }}>Home</a>
-                                {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/">Home Style 1</Link></li>
-                                    <li><Link to="/homeTwo">Home Style 2</Link></li>
-                                </ul> */}
                             </li>
                             <li><Link to="/about">About</Link></li>
                             <li className={courses ? "has-droupdown active" : "has-droupdown"}>
                                 <a onClick={() => { openMobileMenu('courses'); }}>Services</a>
                                 <ul className={courses ? "sub-menu active" : "sub-menu"}>
-                                    <li><Link to="/website-design">Website Design</Link></li>
                                     <li><Link to="/branding">Branding</Link></li>
                                     <li><Link to="/graphic-design">Graphic Design</Link></li>
+                                    <li><Link to="/website-design">Website Design</Link></li>
                                 </ul>
                             </li>
-                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/projects">Portfolio</Link></li>
                             <li className={blog ? "has-droupdown active" : "has-droupdown"}>
                                 <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
                                 {/* <ul className={blog ? "sub-menu active" : "sub-menu"}>
