@@ -11,7 +11,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="Contact" breadcrumbSubTitle="Contact Us" />
+                <Breadcrumb breadcrumbTitle="Contact Us" breadcrumbSubTitle="Contact Us" />
                 <ContactSection />
                 <CtaSection cta_space="cta-area mb--60 z-index" />
                 {/* <MapSection /> */}
