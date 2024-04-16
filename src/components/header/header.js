@@ -46,34 +46,18 @@ const Header = () => {
                                             <li><Link to="/about">About</Link></li>
                                             <li className="menu-item-has-children"><Link to="/services">Services</Link>
                                                 <ul className="sub-menu">
-                                                    <li><Link to="/website-design">Website Design</Link></li>
                                                     <li><Link to="/branding">Branding</Link></li>
                                                     <li><Link to="/graphic-design">Graphic Design</Link></li>
+                                                    <li><Link to="/website-design">Website Design</Link></li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item-has-children"><Link to="/projects">Projects</Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li><Link to="/projects">Projects</Link></li>
-                                                    <li><Link to="/project-details">Projects Details</Link></li>
-                                                </ul> */}
+                                            <li className="menu-item-has-children"><Link to="/projects">Portfolio</Link>
                                             </li>
                                             <li className="menu-item-has-children"><Link to="/blogs">Blog</Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li><Link to="/blogs">Blog</Link></li>
-                                                    <li><Link to="/blog-details">Blog Details</Link></li>
-                                                </ul> */}
+                                                
                                             </li>
                                             <li><Link to="/contact">Contact</Link>
-                                                {/* <ul className="sub-menu">
-                                                    <li><Link to="/pricing">Pricing</Link></li>
-                                                    <li><Link to="/faqs">Faq</Link></li>
-                                                    <li><Link to="/team">Team</Link></li>
-                                                    <li><Link to="/team-details">Team Details</Link></li>
-                                                    <li><Link to="/signin">SignIn</Link></li>
-                                                    <li><Link to="/forgot-password">Forgot Password</Link></li>
-                                                    <li><Link to="/signup">SignUp</Link></li>
-                                                    <li><Link to="/contact">Contact</Link></li>
-                                                </ul> */}
+                                               
                                             </li>
                                         </ul>
                                     </nav>
@@ -86,14 +70,10 @@ const Header = () => {
                             <div className="col-xl-4 d-none d-xl-block">
                                 <div className="header-right text-end">
                                     <div className="header-social">
-                                        {/* <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a> */}
                                         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-                                        {/* <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><i className="fab fa-pinterest-p"></i></a> */}
                                         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                                     </div>
-                                    {/* <div className="header-search">
-                                        <span className="search-btn nav-search search-trigger" onClick={() => { setSearchOpen(!searchOpen) }} role='presentation'><i className="fas fa-search"></i></span>
-                                    </div> */}
+                                    
                                     <div className="header-btn">
                                         <Link to="https://clients.abstract-creative.com/frm/24VyA2GC7ejJbM8Fn" target="_blank" className="theme-btn theme-btn-small" >Request a Quote</Link>
                                     </div>
