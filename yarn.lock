@@ -6590,6 +6590,15 @@
     "lodash" "^4.17.21"
     "webpack-assets-manifest" "^5.1.0"
 
+"gatsby-plugin-google-analytics@^5.13.1":
+  "integrity" "sha512-6TzvUPW7CBpfpSIqpcvaRwRKTYgM3CKqSnfyRIY16vlAKYkAtZLXm3PkIbg0+mM+WzY6GRnAoeXqRkXJv0FK9A=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.13.1.tgz"
+  "version" "5.13.1"
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    "minimatch" "^3.1.2"
+    "web-vitals" "^1.1.2"
+
 "gatsby-plugin-image@^3.1.0":
   "integrity" "sha512-1KhYlia5DjCMqCdapaAwKzlIr0HkJDoV8I7s80UJNUOcBCKi0nCvbDrSwKHJShtH90+ELxbRRywHW8MOVztIew=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-3.7.0.tgz"
@@ -13406,6 +13415,11 @@
   "integrity" "sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw=="
   "resolved" "https://registry.npmjs.org/weak-lru-cache/-/weak-lru-cache-1.2.2.tgz"
   "version" "1.2.2"
+
+"web-vitals@^1.1.2":
+  "integrity" "sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig=="
+  "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
+  "version" "1.1.2"
 
 "webidl-conversions@^3.0.0":
   "integrity" "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="

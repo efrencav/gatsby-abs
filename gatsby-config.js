@@ -5,6 +5,14 @@ module.exports = {
     author: `@r-ichard`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-48W2NP6W6F",
+        head: true,
+        anonymize: true,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
