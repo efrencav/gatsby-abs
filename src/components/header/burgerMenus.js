@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
     const [home, setHome] = useState(false)
     const [courses, setcourses] = useState(false)
-    const [blog, setBlog] = useState(false)
     const [pages, setPages] = useState(false)
     const [project, setProject] = useState(false)
 
@@ -21,13 +20,6 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
             setHome(false)
             setcourses(!courses)
             setBlog(false)
-            setPages(false)
-            setProject(false)
-        }
-        else if (menu === 'blog') {
-            setHome(false)
-            setcourses(false)
-            setBlog(!blog)
             setPages(false)
             setProject(false)
         }
@@ -65,7 +57,6 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                                 </ul>
                             </li>
                             <li><Link to="/projects">Portfolio</Link></li>
-                            <li><Link to="/blogs">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
