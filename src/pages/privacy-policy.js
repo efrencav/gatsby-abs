@@ -1,11 +1,11 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
-import PrivacyDetails from "../components/privacy"
+import PolicyDetails from "../components/policy"
 
 const IndexPage = () => (
     <Layout>
-        <PrivacyDetails />
+        <PolicyDetails />
     </Layout>
 )
 
