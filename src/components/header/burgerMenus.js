@@ -67,12 +67,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                                 </ul>
                             </li>
                             <li><Link to="/projects">Portfolio</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
-                            // <li className={blog ? "has-droupdown active" : "has-droupdown"}>
-                            //     <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
-                                
-                            // </li>
-                            
+                            <li><Link to="/blogs">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
