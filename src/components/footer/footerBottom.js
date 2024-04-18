@@ -16,8 +16,8 @@ const FooterBottom = () => {
                             <div className="privacy-text text-center text-md-end">
                                 <ul>
                                     <li>
-                                        <Link to="/contact">Terms & Condition</Link>
-                                        <Link to="/contact">Privacy Policy</Link>
+                                        <Link to="/terms-and-conditions">Terms & Condition</Link>
+                                        <Link to="/privacy-policy">Privacy Policy</Link>
                                     </li>
                                 </ul>
                             </div>
