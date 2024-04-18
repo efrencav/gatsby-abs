@@ -58,6 +58,9 @@ const Header = () => {
                                         </ul>
                                     </nav>
                                 </div>
+                                <div className="side-menu-icon d-xl-none text-end">
+                                    <button className="side-toggle" onClick={() => { setMenuOpen(!menuOpen) }} role='presentation'><i className="far fa-bars"></i></button>
+                                </div>
                             </div>
                             <div className="col-xl-4 d-none d-xl-block">
                                 <div className="header-right text-end">
@@ -78,6 +81,7 @@ const Header = () => {
 
             <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div onClick={() => setMenuOpen(false)} role='presentation' className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
+
 
         </header>
     );
