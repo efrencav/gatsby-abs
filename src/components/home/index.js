@@ -27,7 +27,7 @@ const index = () => {
                 <TestimonialSlider />
                 {/* <BrandSection /> */}
                 {/* <TrustSection /> */}
-                // <BlogSlider />
+                {/* <BlogSlider />*/}
                 <QualitySection />
             </main>
             <Footer />
