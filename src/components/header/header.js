@@ -72,7 +72,7 @@ const Header = () => {
                                     </div>
                                     
                                     <div className="header-btn">
-                                        <Link to="https://clients.abstract-creative.com/frm/24VyA2GC7ejJbM8Fn" target="_blank" className="theme-btn theme-btn-small" >Request a Quote</Link>
+                                        <Link to="/get-a-quote" target="_blank" className="theme-btn theme-btn-small" >Request a Quote</Link>
                                     </div>
                                 </div>
                             </div>
