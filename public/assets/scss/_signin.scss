@@ -5,11 +5,14 @@
 .signin-area-wrapper {
 	display: flex;
 }
+
 .sign-up-wrapper {
 	display: flex;
 }
+
 .signup-wrapper {
 	position: relative;
+
 	input {
 		width: 100%;
 		height: 55px;
@@ -24,20 +27,25 @@
 		font-size: 16px;
 	}
 }
+
 .signup-input-wrapper {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
-    @include mq(md){
-        display: inherit;
-    }
-    @include mq(xs){
-        display: inherit;
-    }
-    @include mq(sm){
-        display: inherit;
-    }
+
+	@include mq(md) {
+		display: inherit;
+	}
+
+	@include mq(xs) {
+		display: inherit;
+	}
+
+	@include mq(sm) {
+		display: inherit;
+	}
 }
+
 .signup-input-wrapper {
 	input {
 		width: 100%;
@@ -53,73 +61,94 @@
 		font-size: 16px;
 	}
 }
+
 .sign-check {
 	a {
 		color: $theme-color;
 		font-weight: 700;
 		text-decoration: underline;
+
 		&:hover {
 			color: $heading-color;
 		}
 	}
 }
+
 .signup-box {
 	background: #f5f5f5;
 	padding: 45px 30px;
 }
+
+.signup-box-small {
+	background: #f5f5f5;
+	padding: 10px 20px;
+}
+
 .signup-thumb {
 	img {
 		max-width: 100%;
 	}
 }
+
 .signup-form-wrapper {
 	padding: 45px 30px 0px 30px;
 	background: $white-color;
 }
+
 .signup-action {
 	margin-bottom: 25px;
 }
+
 .sing-buttom {
-    button {
-        width: 100%;
-    }
+	button {
+		width: 100%;
+	}
 }
+
 .registered.wrapper {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 .forget-password a {
-    color: $body-color;
-    font-size: 15px;
+	color: $body-color;
+	font-size: 15px;
+
 	&:hover {
 		color: $theme-color;
 	}
 }
+
 .acount-login {
 	margin-bottom: 30px;
+
 	a {
 		font-weight: 600;
 		color: $theme-color;
 		margin-left: 5px;
 		text-decoration: underline;
+
 		&:hover {
 			color: $heading-color;
 		}
 	}
 }
+
 .signup-text {
 	h3 {
 		font-size: 28px;
 		margin-bottom: 106px;
 	}
 }
+
 .signup-message {
 	img {
 		max-width: 100%;
 		margin-bottom: 5px;
 	}
 }
+
 .not-register {
 	a {
 		font-weight: 600;
@@ -136,8 +165,48 @@
 	font-size: 12px;
 	color: #e23;
 }
+
 .signup-action {
-    label {
-        margin-left: 5px;
-    }
+	label {
+		margin-left: 5px;
+	}
+}
+
+.select-form {
+	background: #f5f5f5;
+	padding: 10px 20px;
+	border: none;
+}
+
+.option-form {
+	background: #f5f5f5;
+	padding: 10px 20px;
+}
+
+.options {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	margin: 0 0;
+	padding: 0 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	background-color: white;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.options li {
+	padding: 0 6px;
+	margin: 0 0;
+	padding: 0 10px;
+}
+
+.options li:hover {
+	background-color: #39f;
+	color: white;
 }
