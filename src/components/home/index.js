@@ -10,7 +10,7 @@ import TestimonialSlider from '../elements/testimonials/testimonialSlider';
 import QualitySection from './qualitySection';
 // import TrustSection from './trustSection';
 import Footer from '../footer/footer';
-import BlogSlider from '../elements/sliders/blogSlider';
+// import BlogSlider from '../elements/sliders/blogSlider';
 import Header from '../header/header';
 
 const index = () => {
@@ -27,7 +27,7 @@ const index = () => {
                 <TestimonialSlider />
                 {/* <BrandSection /> */}
                 {/* <TrustSection /> */}
-                <BlogSlider />
+                // <BlogSlider />
                 <QualitySection />
             </main>
             <Footer />
