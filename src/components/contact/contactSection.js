@@ -56,31 +56,28 @@ const ContactSection = () => {
                             <input type="hidden" name="form-name" value="Get a Quote" />
 
                             <div className="contact-form">
-                                <form action="#" id="contact-form">
-                                    <div className="row">
-                                        <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                            <input name="first-name" type="text" placeholder="Your Name" />
-                                        </div>
-                                        <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                            <input name="email" type="email" placeholder="Email Adress" />
-                                        </div>
-                                        <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                            <input name="phone" type="text" placeholder="Phone" />
-                                        </div>
-                                        <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                            <input name="subject" type="text" placeholder="Subject" />
-                                        </div>
-                                        <div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
-                                            <textarea placeholder="Write Massage" name="massage"></textarea>
-                                        </div>
-                                        <div className="col-xxl-12 col-xl-12 mb-20">
-                                            <button type="submit" className="theme-btn border-btn">Send a message</button>
-                                        </div>
+                                <div className="row">
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
+                                        <input name="first-name" type="text" placeholder="Your Name" />
                                     </div>
-                                </form>
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
+                                        <input name="email" type="email" placeholder="Email Adress" />
+                                    </div>
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
+                                        <input name="phone" type="text" placeholder="Phone" />
+                                    </div>
+                                    <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
+                                        <input name="subject" type="text" placeholder="Subject" />
+                                    </div>
+                                    <div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
+                                        <textarea placeholder="Write Massage" name="massage"></textarea>
+                                    </div>
+                                    <div className="col-xxl-12 col-xl-12 mb-20">
+                                        <button type="submit" className="theme-btn border-btn">Send a message</button>
+                                    </div>
+                                </div>
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>
