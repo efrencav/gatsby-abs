@@ -24,7 +24,7 @@ const TermDetails = () => {
                                 </p>
                                 <h3>6. Changes to Terms and Conditions</h3>
                                 <p>Abstract Creative, LLC reserves the right to modify these terms and conditions at any time without notice. Your continued use of the website after any such changes constitutes your acceptance of the new terms and conditions.</p>
-                                <p>If you have any questions or concerns regarding these terms and conditions, please contact us at info@abstractcreative.com.</p>
+                                <p>If you have any questions or concerns regarding these terms and conditions, please contact us at <a href="mailto:info@abstract-creative.com">info@abstract-creative.com</a>.</p>
                                 <p>Thank you for using Abstract Creative, LLC's website.</p>
                             </div>
                         </div>
