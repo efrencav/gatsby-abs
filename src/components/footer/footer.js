@@ -11,7 +11,7 @@ const Footer = ({ footer_space }) => {
             <div className="footer-area pb-60">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-6 col-sm-6">
                             <div className="widget mb-30">
                                 <div className="footer-logo mb-25">
                                     <Link to="/"><img src="/assets/img/logo/logo-light.png" className="img-fluid" alt="footer-logo" /></Link>
@@ -37,7 +37,7 @@ const Footer = ({ footer_space }) => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-4 col-sm-6">
                             <div className="widget widget-contact mb-30">
                                 <h4 className="widget-title mb-35">Contact</h4>
                                 <ul>
@@ -47,18 +47,18 @@ const Footer = ({ footer_space }) => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
-                            <div className="widget mb-30">
-                                <h4 className="widget-title mb-30">Newsletter</h4>
-                                <p className="mb-20">Subscribe to Our Newsletter for Daily News and Updates</p>
-                                <div className="widget-newsletter">
-                                    <form action="#">
-                                        <input type="email" placeholder="Email Address" />
-                                        <button type="submit">Send</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                        // <div className="col-lg-3 col-sm-6">
+                        //     <div className="widget mb-30">
+                        //         <h4 className="widget-title mb-30">Newsletter</h4>
+                        //         <p className="mb-20">Subscribe to Our Newsletter for Daily News and Updates</p>
+                        //         <div className="widget-newsletter">
+                        //             <form action="#">
+                        //                 <input type="email" placeholder="Email Address" />
+                        //                 <button type="submit">Send</button>
+                        //             </form>
+                        //         </div>
+                        //     </div>
+                        // </div>
                     </div>
                 </div>
             </div>
