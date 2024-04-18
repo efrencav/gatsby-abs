@@ -49,9 +49,7 @@ const Header = () => {
                                             </li>
                                             <li className="menu-item-has-children"><Link to="/projects">Portfolio</Link>
                                             </li>
-                                            </li>
                                             <li><Link to="/contact">Contact</Link>
-
                                             </li>
                                         </ul>
                                     </nav>
