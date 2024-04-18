@@ -47,18 +47,6 @@ const Footer = ({ footer_space }) => {
                                 </ul>
                             </div>
                         </div>
-                        // <div className="col-lg-3 col-sm-6">
-                        //     <div className="widget mb-30">
-                        //         <h4 className="widget-title mb-30">Newsletter</h4>
-                        //         <p className="mb-20">Subscribe to Our Newsletter for Daily News and Updates</p>
-                        //         <div className="widget-newsletter">
-                        //             <form action="#">
-                        //                 <input type="email" placeholder="Email Address" />
-                        //                 <button type="submit">Send</button>
-                        //             </form>
-                        //         </div>
-                        //     </div>
-                        // </div>
                     </div>
                 </div>
             </div>
