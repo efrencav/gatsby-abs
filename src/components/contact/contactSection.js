@@ -53,7 +53,7 @@ const ContactSection = () => {
                                     Don't fill this out: <input name="bot-field" />
                                 </label>
                             </p>
-                            <input type="hidden" name="form-name" value="Get a Quote" />
+                            <input type="hidden" name="form-name" value="Contact Us" />
 
                             <div className="contact-form">
                                 <div className="row">
