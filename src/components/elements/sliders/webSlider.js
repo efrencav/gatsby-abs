@@ -51,21 +51,6 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-3.jpg" className="img-fluid" alt="project_img" />
-                            <div className="kproject-text">
-                                <div className="kproject-text-content">
-                                    <span>Website Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/patco">Patco Manufacturing</Link></h5>
-                                </div>
-                                <div className="kproject-text-icon">
-                                    <Link to="/patco"><i className="far fa-long-arrow-right"></i></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="kproject swiper-slides">
                             <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
@@ -74,6 +59,20 @@ const ProjectSlider = () => {
                                 </div>
                                 <div className="kproject-text-icon">
                                     <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                        <SwiperSlide>
+                        <div className="kproject swiper-slides">
+                            <img src="/assets/img/project/project-big-img-3.jpg" className="img-fluid" alt="project_img" />
+                            <div className="kproject-text">
+                                <div className="kproject-text-content">
+                                    <span>Website Design</span>
+                                    <h5 className="kproject-text-title"><Link to="/patco">Patco Manufacturing</Link></h5>
+                                </div>
+                                <div className="kproject-text-icon">
+                                    <Link to="/patco"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
