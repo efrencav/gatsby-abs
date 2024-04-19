@@ -55,10 +55,10 @@ const ProjectSlider = () => {
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/patco">Patco Manufacturing</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/patco">Phillips 66 Annual Report</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/patco"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -66,14 +66,14 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-2.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/kinsmen">Kinsmen Group</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/cafe-diario">Cafe Diario</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/cafe-diario"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -81,14 +81,14 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-10.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-5.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/twhe">Texas Women in Higher Education</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/six-ways">Six Ways to Save on Well Intervention</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/twhe"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/six-ways"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +96,14 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-3.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-4.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/silestone-brochure">Silestone Brochure</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/silestone-brochure"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
