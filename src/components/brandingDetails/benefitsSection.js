@@ -18,7 +18,7 @@ const BenefitsSection = () => {
                                 <h2 className="section-title">We’re here to grow your business</h2>
                             </div>
                             <h5 className="benefit-subtitle">Project Ownership. Transparency. Results.</h5>
-                            <p className="mb-45">We grow brands online at Abstract Creative. From custom web design and development to branding and digital marketing, our full-service web design company can handle your entire business' digital needs.
+                            <p className="mb-45">We grow brands online at Abstract Creative. From custom web design and development to branding and digital marketing, our full-service design company can handle your entire business' digital needs.
                                 All of our strategies are driven by research-based insights or innovative ways of connecting with your target audience that drive digital growth for your organization.</p>
                             {/* <div className="row mt-40">
                                 <div className="col-md-6">
