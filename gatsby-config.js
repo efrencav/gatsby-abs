@@ -6,11 +6,19 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-48W2NP6W6F",
-        head: true,
-        anonymize_ip: true,
+        trackingIds: [
+          "G-NLJKZZ6PVJ", // Google Analytics / GA
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
+          delayOnRouteUpdate: 0,
+        },
       },
     },
     `gatsby-plugin-image`,
