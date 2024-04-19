@@ -47,7 +47,7 @@ const AboutSection = () => {
                                 <li><i className="fal fa-check"></i>Managing countless roles and tasks leaves little time for the necessary design and strategy to enhance your organization's presence and create a cohesive brand identity.</li>
                             </ul>
                             <div className="kabout-btn">
-                                <Link to="/services" className="theme-btn border-btn">Discover more</Link>
+                                <Link to="/about" className="theme-btn border-btn">Discover more</Link>
                             </div>
                         </div>
                     </div>
