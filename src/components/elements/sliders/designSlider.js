@@ -55,7 +55,7 @@ const ProjectSlider = () => {
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/patco">Phillips 66 Annual Report</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/hillips66">Phillips 66 Annual Report</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
                                     <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
