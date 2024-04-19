@@ -9,7 +9,7 @@ const ServiceSection = () => {
                     <div className="col-xxl-5 col-lg-6">
                         <div className="kservice-text mb-50" data-aos="fade-right" data-aos-duration="1000">
                             <h5 className="kservice-text-subtitle mb-15">Our Services</h5>
-                            <h2 className="kservice-text-title mb-40">The Services <br />We Offer</h2>
+                            <h2 className="kservice-text-title mb-40">What We Can Do For You</h2>
                             <p className="mb-45">Abstract Creative helps organizations achieve remarkable things with growth-driven branding and website design. With a purpose-driven website, we convey your brand identity, what you offer, and why you're different. We support your positive efforts with branding and website design experts.</p>
                             <div className="kservice-author">
                                 <div className="kservice-author-img mr-30">
