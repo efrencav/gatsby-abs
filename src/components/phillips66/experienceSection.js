@@ -50,7 +50,7 @@ const ExperienceSection = () => {
                                     <h4 className='mt-60'>Your graphic design should be your best employee. Need a Graphic Design estimate?</h4>
                                 </div>
                                 <div className="widget-btn">
-                                    <Link to="/about" className="theme-btn border-btn mb-80">get a free estimate</Link>
+                                    <Link to="/get-a-quote" className="theme-btn border-btn mb-80">Request a Quote</Link>
                                 </div>
                             </div>
                         </div>
