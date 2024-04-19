@@ -62,7 +62,7 @@ const SignUpMain = () => {
                                             <div className="signup-input-wrapper signup-box-small mb-30">
                                                 <label for="budget">What is your Budget?</label>
                                                 <select className="select-form" id="budget" name="budget">
-                                                    <option value="2500"> more than $2,500</option>
+                                                    <option value="2500">Less than $2,500</option>
                                                     <option value="5000">$2,500 - $5,000</option>
                                                     <option value="7500">$5,001 - $7,500</option>
                                                     <option value="10000">$7,501 - $10,000</option>
