@@ -10,7 +10,7 @@ module.exports = {
       options: {
         trackingId: "G-48W2NP6W6F",
         head: true,
-        anonymize: true,
+        anonymize_ip: true,
       },
     },
     `gatsby-plugin-image`,
