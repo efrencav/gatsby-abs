@@ -10,6 +10,7 @@ module.exports = {
       options: {
         trackingIds: [
           "G-NLJKZZ6PVJ", // Google Analytics / GA
+          "GTM-P8DDTXJ5" // Google Tag Manager
         ],
         gtagConfig: {
           anonymize_ip: true,
