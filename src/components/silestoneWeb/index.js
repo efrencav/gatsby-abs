@@ -11,7 +11,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="Portfolio" breadcrumbSubTitle="Silestone Website" />
+                <Breadcrumb breadcrumbTitle="Silestone Website" breadcrumbSubTitle="Portfolio" />
                 <ExperienceSection />
                 <PortPagination />
             </main>
