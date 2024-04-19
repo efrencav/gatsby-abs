@@ -11,7 +11,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="Portfolio" breadcrumbSubTitle="Six Ways to Reduce Well Intervention Costs" />
+                <Breadcrumb breadcrumbTitle="Six Ways to Reduce Well Intervention Costs" breadcrumbSubTitle="Portfolio" />
                 <ExperienceSection />
                 <PortPagination />
             </main>
