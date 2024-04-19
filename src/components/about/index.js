@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb';
-import BrandSection from '../elements/brands/brandSection';
+// import BrandSection from '../elements/brands/brandSection';
 import TestimonialSlider from '../elements/testimonials/testimonialSlider';
 import Footer from '../footer/footer';
 import Header from '../header/header';
@@ -20,7 +20,7 @@ const index = () => {
                 {/* <FactSection fact_space="fact-area pb-85" /> */}
                 <WhyWeTwo />
                 <TeamTwo />
-                <BrandSection brand_space="brand-area2 bg-grey pt-100 pb-100" />
+                {/* <BrandSection brand_space="brand-area2 bg-grey pt-100 pb-100" />*/}
             </main>
             <Footer />
         </>
