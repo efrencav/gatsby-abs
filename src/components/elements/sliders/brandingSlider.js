@@ -64,16 +64,16 @@ const ProjectSlider = () => {
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-7.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
-                                    <span>Website Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/kinsmen">Kinsmen Group</Link></h5>
+                                    <span>Graphic Design</span>
+                                    <h5 className="kproject-text-title"><Link to="/patco">Phillips 66 Annual Report</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +96,14 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-10.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-5.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Website Design</span>
-                                    <h5 className="kproject-text-title"><Link to="/twhe">Texas Women in Higher Education</Link></h5>
+                                    <h5 className="kproject-text-title"><Link to="/six-ways">Six Ways to Reduce Well Intervention Costs</Link></h5>
                                 </div>
                                 <div className="kproject-text-icon">
-                                    <Link to="/twhe"><i className="far fa-long-arrow-right"></i></Link>
+                                    <Link to="/six-ways"><i className="far fa-long-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
