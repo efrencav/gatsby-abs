@@ -51,7 +51,7 @@ const ProjectSlider = () => {
 
                     <SwiperSlide>
                         <div className="kproject swiper-slides">
-                            <img src="/assets/img/project/project-big-img-3.jpg" className="img-fluid" alt="project_img" />
+                            <img src="/assets/img/project/project-big-img-7.jpg" className="img-fluid" alt="project_img" />
                             <div className="kproject-text">
                                 <div className="kproject-text-content">
                                     <span>Graphic Design</span>
