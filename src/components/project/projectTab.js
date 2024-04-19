@@ -134,10 +134,10 @@ const ProjectTab = () => {
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Well Intervention Catalog</Link></h5>
+                                                <h5 className="kproject-text-title"><Link to="/slb-catalog">Well Intervention Catalog</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
+                                                <Link to="/slb-catalog"><i className="far fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -148,10 +148,10 @@ const ProjectTab = () => {
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Website Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Kinsmen Group Website</Link></h5>
+                                                <h5 className="kproject-text-title"><Link to="/kinsmen">Kinsmen Group Website</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
+                                                <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -243,48 +243,6 @@ const ProjectTab = () => {
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
                                                 <h5 className="kproject-text-title"><Link to="/project-details">Cafe Diario</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-11.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-img-12.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-img-13.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
                                                 <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
