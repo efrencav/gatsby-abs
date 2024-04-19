@@ -31,36 +31,36 @@ const WhyWeTwo = () => {
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingOne">
                                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Another key factor that sets us apart
+                                            Quality Work
                                         </button>
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>Is our commitment to using the latest design tools and technologies. We are constantly keeping up with the latest trends and advancements in the design industry to ensure that we are delivering cutting-edge designs that are both aesthetically pleasing and functional.</p>
+                                            <p>Our graphic design agency takes pride in delivering exceptional quality work that exceeds our clients' expectations. Our experienced graphic designers use the latest software and tools to create designs that are visually stunning and effective in communicating our clients' messages.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingTwo">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Where should I incorporate my business?
+                                            Customer Satisfaction
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>Web fonts are often terrible for web performance and none of the font loading strategies are particularly effective to address that. Upcoming font options may finally deliver on the promise.</p>
+                                            <p>We place a high priority on customer satisfaction and work closely with our clients to understand their needs and preferences. We provide regular updates and revisions to ensure that the final product meets their expectations.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingThree">
                                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            How there are many variations of passages
+                                            Competitive Pricing
                                         </button>
                                     </h2>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
-                                            <p>Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones.</p>
+                                            <p>Our graphic design agency offers competitive pricing without compromising on quality. We believe in providing our clients with affordable design solutions that are tailored to their specific needs and budget.</p>
                                         </div>
                                     </div>
                                 </div>
