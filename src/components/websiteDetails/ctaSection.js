@@ -19,7 +19,7 @@ const CtaSection = ({ cta_space }) => {
                         <p>Let us show you how we can revolutionize your operations and help you reach new heights with our website design services.</p>
                     </div>
                     <div className="cta-btn text-lg-end text-start">
-                        <Link className="theme-btn black-btn" to="/request-a-quote">Request a Quote</Link>
+                        <Link className="theme-btn black-btn" to="/get-a-quote/">Request a Quote</Link>
                     </div>
                 </div>
             </div>
