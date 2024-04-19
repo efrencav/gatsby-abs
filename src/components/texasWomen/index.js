@@ -11,7 +11,7 @@ const index = () => {
         <>
             <Header />
             <main>
-                <Breadcrumb breadcrumbTitle="Portfolio" breadcrumbSubTitle="Texas Women in Higher Education" />
+                <Breadcrumb breadcrumbTitle="Texas Women in Higher Education" breadcrumbSubTitle="Portfolio" />
                 <ExperienceSection />
                 <PortPagination />
             </main>
