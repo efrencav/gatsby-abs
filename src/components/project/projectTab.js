@@ -120,7 +120,7 @@ const ProjectTab = () => {
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/phillips66">Annual Report</Link></h5>
+                                                <h5 className="kproject-text-title"><Link to="/phillips66">Phillips 66 Annual Report</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
                                                 <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
