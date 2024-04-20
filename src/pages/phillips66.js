@@ -11,5 +11,5 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo />
+    <Seo title="Phillips 66 Annual Report Portfolio | Abstract Creative" />
 )
