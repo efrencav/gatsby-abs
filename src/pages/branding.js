@@ -12,5 +12,6 @@ const BrandingPage = () => (
 export default BrandingPage
 
 export const Head = () => (
-    <Seo />
+    <Seo title="Branding Services | Abstract Creative" />
+
 )
