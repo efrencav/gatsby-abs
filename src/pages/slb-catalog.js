@@ -15,5 +15,5 @@ const WebsitePage = () => (
 export default WebsitePage
 
 export const Head = () => (
-    <Seo />
+    <Seo title="Schlumberger Well Intervention Catalog Portfolio | Abstract Creative" />
 )
