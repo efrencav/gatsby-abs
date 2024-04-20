@@ -11,5 +11,5 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo />
+    <Seo title="Kinsmen Group Website | Abstract Creative" />
 )
