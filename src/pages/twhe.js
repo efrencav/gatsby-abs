@@ -11,5 +11,5 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo />
+        <Seo title="Texas Women in Higher Education Portfolio | Abstract Creative" />
 )
