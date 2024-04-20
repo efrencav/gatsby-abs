@@ -11,5 +11,5 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo />
+ <Seo title="Six Ways To Reduce Well Intevention Costs Portfolio | Abstract Creative" />
 )
