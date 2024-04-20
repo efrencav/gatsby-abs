@@ -12,5 +12,5 @@ const GraphicPage = () => (
 export default GraphicPage
 
 export const Head = () => (
-    <Seo />
+    <Seo title="Graphic Design Services | Abstract Creative" />
 )
