@@ -12,5 +12,5 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo title="About Us" />
+    <Seo title="About Us | Abstract Creative" />
 )
