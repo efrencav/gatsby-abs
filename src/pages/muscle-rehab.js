@@ -12,5 +12,6 @@ const IndexPage = () => (
 export default IndexPage
 
 export const Head = () => (
-    <Seo />
+        <Seo title="Muscle Rehab Portfolio | Abstract Creative" />
+
 )
