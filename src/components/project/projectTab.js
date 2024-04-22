@@ -16,8 +16,8 @@ const ProjectTab = () => {
                                     <button className="nav-link" id="nav-branding-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-branding" type="button" role="tab" aria-controls="nav-branding"
                                         aria-selected="false">Branding</button>
-                                    <button className="nav-link" id="nav-graphic-design-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-graphic-design" type="button" role="tab" aria-controls="nav-graphic-design"
+                                    <button className="nav-link" id="nav-graphic-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-graphic" type="button" role="tab" aria-controls="nav-graphic"
                                         aria-selected="false">Graphic Design</button>
                                     <button className="nav-link" id="nav-web-tab" data-bs-toggle="tab" data-bs-target="#nav-web"
                                         type="button" role="tab" aria-controls="nav-web" aria-selected="false">Website Design</button>
@@ -26,6 +26,8 @@ const ProjectTab = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* ================================ */}
                 <div className="aportfolio-active">
                     <div className="tab-content" id="nav-graphic-design">
                         <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
@@ -120,7 +122,7 @@ const ProjectTab = () => {
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/phillips66">Phillips 66 Annual Report</Link></h5>
+                                                <h5 className="kproject-text-title"><Link to="/phillips66">Annual Report</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
                                                 <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
@@ -190,41 +192,29 @@ const ProjectTab = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-lg-4 col-md-6">
+                                <div className="col-lg-4 col-md-6">
                                     <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
+                                        <img src="/assets/img/project/project-big-img-7.jpg" className="img-fluid" alt="project_img" />
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
-                                                <span>Branding</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
+                                                <span>Graphic Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/phillips66">Annual Report</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
+                                                <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-10.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Fimlor Experience</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
                             </div>
                         </div>
-                        <div className="tab-pane fade" id="nav-graphic-design" role="tabpanel" aria-labelledby="nav-graphic-design-tab">
+
+                        {/* Graphic Design */}
+                        <div className="tab-pane fade" id="nav-graphic" role="tabpanel" aria-labelledby="nav-graphic-tab">
                             <div className='row'>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
+                                        <img src="/assets/img/project/project-big-img-1.jpg" className="img-fluid" alt="Muscle Rehab bath bombs packaging" />
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
@@ -238,22 +228,94 @@ const ProjectTab = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-10.jpg" className="img-fluid" alt="project_img" />
+                                        <img src="/assets/img/project/project-big-img-2.jpg" className="img-fluid" alt="project_img" />
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
                                                 <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/project-details">Cafe Diario</Link></h5>
+                                                <h5 className="kproject-text-title"><Link to="/cafe-diario">Cafe Diario</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
-                                                <Link to="/project-details"><i className="far fa-long-arrow-right"></i></Link>
+                                                <Link to="/cafe-diario"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-4.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Graphic Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/silestone-brochure">Silestone Kitchen and Bath Brochure</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/silestone-brochure"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-5.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Graphic Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/six-ways">Six Ways to Reduce Well Intervention</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/six-ways"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-7.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Graphic Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/phillips66">Annual Report</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-8.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Graphic Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/slb-catalog">Well Intervention Catalog</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/slb-catalog"><i className="far fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        {/* Website Design */}
                         <div className="tab-pane fade" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
                             <div className='row'>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-9.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Website Design</span>
+                                                <h5 className="kproject-text-title"><Link to="/kinsmen">Kinsmen Group Website</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="kproject kproject-2 mb-30">
                                         <img src="/assets/img/project/project-big-img-3.jpg" className="img-fluid" alt="project_img" />
@@ -282,36 +344,9 @@ const ProjectTab = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-img-12.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Website Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/kinsmen">Kinsmen Group Website</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/kinsmen"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-img-13.jpg" className="img-fluid" alt="project_img" />
-                                        <div className="kproject-text kproject-text-2">
-                                            <div className="kproject-text-content">
-                                                <span>Website Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/silestone-website">Silestone Website</Link></h5>
-                                            </div>
-                                            <div className="kproject-text-icon">
-                                                <Link to="/silestone-website"><i className="far fa-long-arrow-right"></i></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
