@@ -4,7 +4,7 @@ import Footer from '../footer/footer';
 import Header from '../header/header';
 import ExperienceSection from './experienceSection';
 import PortPagination from './portPagination';
-// import RecentWok from './recentWok';
+import RecentWok from './recentWok';
 
 const index = () => {
     return (
@@ -14,6 +14,7 @@ const index = () => {
                 <Breadcrumb breadcrumbTitle="Silestone Brochure" breadcrumbSubTitle="Portfolio" />
                 <ExperienceSection />
                 <PortPagination />
+                <RecentWok />
             </main>
             <Footer />
         </>
