@@ -194,14 +194,28 @@ const ProjectTab = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="kproject kproject-2 mb-30">
-                                        <img src="/assets/img/project/project-big-img-7.jpg" className="img-fluid" alt="project_img" />
+                                        <img src="/assets/img/project/project-big-img-6.jpg" className="img-fluid" alt="project_img" />
                                         <div className="kproject-text kproject-text-2">
                                             <div className="kproject-text-content">
-                                                <span>Graphic Design</span>
-                                                <h5 className="kproject-text-title"><Link to="/phillips66">Annual Report</Link></h5>
+                                                <span>Branding</span>
+                                                <h5 className="kproject-text-title"><Link to="/slb-brand">SLB Branding Guidelines</Link></h5>
                                             </div>
                                             <div className="kproject-text-icon">
-                                                <Link to="/phillips66"><i className="far fa-long-arrow-right"></i></Link>
+                                                <Link to="/slb-brand"><i className="far fa-long-arrow-right"></i></Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="kproject kproject-2 mb-30">
+                                        <img src="/assets/img/project/project-big-img-90.jpg" className="img-fluid" alt="project_img" />
+                                        <div className="kproject-text kproject-text-2">
+                                            <div className="kproject-text-content">
+                                                <span>Branding</span>
+                                                <h5 className="kproject-text-title"><Link to="/enfusia">Enfusia</Link></h5>
+                                            </div>
+                                            <div className="kproject-text-icon">
+                                                <Link to="/enfusia"><i className="far fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>
