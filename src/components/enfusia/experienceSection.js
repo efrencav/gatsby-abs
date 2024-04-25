@@ -16,14 +16,14 @@ const ExperienceSection = () => {
                     <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-12">
                         <div className="p-details-content mb-40">
                             <h3>Enfusia</h3>
-                            <img className='mb20' src="/assets/img/project/enfusia-2.jpg" alt="Coffee packaging" />
+                            <img className='mb20' src="/assets/img/project/en-project-big-img-2.jpg" alt="Coffee packaging" />
                             <p>Enfusia is a beauty product brand that has been making waves in the industry. The brand's unique approach to creating products that are both effective and safe has gained it a loyal following.</p>
-                            <img className='mb20' src="/assets/img/project/enfusia-1.jpg" alt="Coffee packaging" />
+                            <img className='mb20' src="/assets/img/project/en-project-big-img-1.jpg" alt="Coffee packaging" />
                             <p>Enfusia's branding strategy is centered around the idea of promoting self-care and self-love. </p>
                             <p>The brand's products are not only designed to improve the appearance of the skin, but also to promote a sense of well-being and relaxation. This message is communicated through the use of calming colors, soothing language, and imagery that evokes feelings of peace and tranquility. </p>
-                            <img className='mb20' src="/assets/img/project/enfusia-3.jpg" alt="Coffee packaging" />
+                            <img className='mb20' src="/assets/img/project/en-project-big-img-3.jpg" alt="Coffee packaging" />
                             <p>Enfusia strives to create a holistic beauty experience that goes beyond just physical appearance, and this is reflected in its branding efforts.</p>
-                            <img className='mb20' src="/assets/img/project/enfusia-4.jpg" alt="Coffee packaging" />
+                            <img className='mb20' src="/assets/img/project/en-project-big-img-4.jpg" alt="Coffee packaging" />
                         </div>
                     </div>
                     <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
