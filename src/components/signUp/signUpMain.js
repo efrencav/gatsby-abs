@@ -40,20 +40,20 @@ const SignUpMain = () => {
 
                                         <div className="signup-form-wrapper">
                                             <div className="signup-input-wrapper">
-                                                <input type="text" placeholder="First Name" name="first-name" />
-                                                <input type="text" placeholder="Last Name" name="last-name" />
+                                                <input type="text" placeholder="First Name" name="first-name" required/>
+                                                <input type="text" placeholder="Last Name" name="last-name" required/>
                                             </div>
                                             <div className="signup-wrapper">
-                                                <input type="text" placeholder="Company / Organization Name" name="company-organization" />
+                                                <input type="text" placeholder="Company / Organization Name" name="company-organization" required/>
                                                 <input type="text" placeholder="What's Your Role?" name="role" />
                                             </div>
                                             <div className="signup-input-wrapper">
-                                                <input type="email" placeholder="Email" name="email" />
-                                                <input type="text" placeholder="Phone Number" name="phone-number" />
+                                                <input type="email" placeholder="Email" name="email" required/>
+                                                <input type="text" placeholder="Phone Number" name="phone-number" required/>
                                             </div>
                                             <div className="signup-input-wrapper signup-box-small mb-30">
                                                 <label for="services">Type of Project?</label>
-                                                <select className="select-form" id="services" name="Type of Services">
+                                                <select className="select-form" id="services" name="Type of Services" required>
                                                     <option className="option-form" value="branding">Branding</option>
                                                     <option value="graphicDesign">Graphic Design</option>
                                                     <option value="websiteDesign">Website Design</option>
@@ -61,7 +61,7 @@ const SignUpMain = () => {
                                             </div>
                                             <div className="signup-input-wrapper signup-box-small mb-30">
                                                 <label for="budget">What is your Budget?</label>
-                                                <select className="select-form" id="budget" name="budget">
+                                                <select className="select-form" id="budget" name="budget" required>
                                                     <option value="2500">Less than $2,500</option>
                                                     <option value="5000">$2,500 - $5,000</option>
                                                     <option value="7500">$5,001 - $7,500</option>
@@ -70,7 +70,7 @@ const SignUpMain = () => {
                                                 </select>
                                             </div>
                                             <div className="signup-wrapper">
-                                                <input type="message" placeholder="Project Description" name="project-description" />
+                                                <input type="message" placeholder="Project Description" name="project-description" required/>
                                             </div>
                                             <div className="sing-buttom mb-20">
                                                 <button type='submit' className="theme-btn theme-btn-small border-btn">Get A Quote</button>
