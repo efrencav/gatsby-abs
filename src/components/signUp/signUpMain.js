@@ -45,7 +45,7 @@ const SignUpMain = () => {
                                             </div>
                                             <div className="signup-wrapper">
                                                 <input type="text" placeholder="Company / Organization Name" name="company-organization" required/>
-                                                <input type="text" placeholder="What's Your Role?" name="role" />
+                                                <input type="text" placeholder="What's Your Role?" name="role" required/>
                                             </div>
                                             <div className="signup-input-wrapper">
                                                 <input type="email" placeholder="Email" name="email" required/>
