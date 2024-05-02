@@ -58,19 +58,19 @@ const ContactSection = () => {
                             <div className="contact-form">
                                 <div className="row">
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="first-name" type="text" placeholder="Your Name" />
+                                        <input name="first-name" type="text" placeholder="Your Name" required/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="email" type="email" placeholder="Email Adress" />
+                                        <input name="email" type="email" placeholder="Email Adress" required/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="phone" type="text" placeholder="Phone" />
+                                        <input name="phone" type="text" placeholder="Phone" required/>
                                     </div>
                                     <div className="col-xxl-6 col-xl-6 col-lg-6 mb-20">
-                                        <input name="subject" type="text" placeholder="Subject" />
+                                        <input name="subject" type="text" placeholder="Subject" required/>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 col-lg-12 mb-20">
-                                        <textarea placeholder="Write Massage" name="massage"></textarea>
+                                        <textarea placeholder="Write Massage" name="massage" required></textarea>
                                     </div>
                                     <div className="col-xxl-12 col-xl-12 mb-20">
                                         <button type="submit" className="theme-btn border-btn">Send a message</button>
