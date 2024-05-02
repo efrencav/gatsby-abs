@@ -30,7 +30,7 @@ const ExperienceSection = () => {
                             <div className="sidebar-right">
                                 <div className="sidebar-single">
                                     <label>Clients:</label>
-                                    <span>Cosentino</span>
+                                    <span>Schlumberger</span>
                                 </div>
                                 <div className="sidebar-single">
                                     <label>Category:</label>
@@ -39,7 +39,7 @@ const ExperienceSection = () => {
                                 </div>
                                 <div className="sidebar-single">
                                     <label>Industry:</label>
-                                    <span>Kitchen and Bath</span>
+                                    <span>Oil and Gas</span>
                                 </div>
                                 {/* <div className="sidebar-single">
                                     <label>Date:</label>
