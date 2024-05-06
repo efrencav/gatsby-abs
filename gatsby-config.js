@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Abstract Creative – Digital Agency located in Houston, Texas`,
-    description: `Are you looking for top-notch graphic design, website design, branding, and other related services? Let us help you create a standout brand image that impresses your audience and takes your business to the next level.`,
+    description: `Looking for impressive graphic design, website design, branding, and related services? Let us help you create a standout brand image and take your business to the next level.`,
     author: `@r-ichard`,
   },
   plugins: [
