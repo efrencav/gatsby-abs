@@ -9,12 +9,12 @@ const AboutSection = () => {
                     <div className="col-lg-6">
                         <div className="kabout-img mb-50 mr-70" data-aos="zoom-out-up" data-swiper-autoplay="10000">
                             <div className="kabout-img-shape"></div>
-                            <img src="/assets/img/about/about-img-1.jpg" className="img-fluid z-index" alt="about-img" />
+                            <img src="/assets/img/about/about-img-1.jpg" className="img-fluid z-index" alt="man standing over desk pointing with his pen" />
                             <div className="kabout-img-small">
-                                <img src="/assets/img/about/about-img-2.jpg" className="img-fluid" alt="about-img" />
+                                <img src="/assets/img/about/about-img-2.jpg" className="img-fluid" alt="group of designers sitting on the floor looking up at the camera" />
                                 <div className="kabout-img-small-icon play_btn">
                                     <span>
-                                        <img src="/assets/img/icon/about-icon.png" className="img-fluid" alt="about-icon" />
+                                        <img src="/assets/img/icon/about-icon.png" className="img-fluid" alt="head with light bulb icon" />
                                     </span>
                                 </div>
                             </div>
