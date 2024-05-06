@@ -13,7 +13,7 @@ const ServiceSection = () => {
                             <p className="mb-45">Abstract Creative helps organizations achieve remarkable things with growth-driven branding and website design. With a purpose-driven website, we convey your brand identity, what you offer, and why you're different. We support your positive efforts with branding and website design experts.</p>
                             <div className="kservice-author">
                                 <div className="kservice-author-img mr-30">
-                                    <img src="/assets/img/service/service-author.png" className="img-fluid" alt="author-img" />
+                                    <img src="/assets/img/service/service-author.png" className="img-fluid" alt="headshot of a male with blue dress shirt" />
                                 </div>
                                 <div className="kservice-author-sign">
                                     <span>Efren Cavazos</span>
