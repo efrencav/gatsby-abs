@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Abstract Creative – Digital Agency located in Houston, Texas`,
-    description: `Abstract Creative, Graphic Design, Website Design, Branding`,
+    description: `We specialize in providing graphic design, website design, branding, and other related services.`,
     author: `@r-ichard`,
   },
   plugins: [
