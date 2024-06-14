@@ -3,7 +3,7 @@ import React from 'react';
 
 const Awards = () => {
     return (
-        <section className="awards-section space">
+                <section className="awards-section space" style={{ backgroundImage: "url(/assets/img/bg/breadcrumb-bg4.jpg)" }}>
             <div className="container-style1">
                 <div className="title-area white">
                     <span className="sub-title">Winning Awards</span>
