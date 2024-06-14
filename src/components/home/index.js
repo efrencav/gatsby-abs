@@ -8,6 +8,7 @@ import TestimonialSlider from '../elements/testimonials/testimonialSlider';
 import QualitySection from './qualitySection';
 import Footer from '../footer/footer';
 import Header from '../header/header';
+import Awards from './awards';
 
 const index = () => {
     return (
@@ -18,6 +19,7 @@ const index = () => {
                 <ServiceSection />
                 <CtaSection />
                 <AboutSection />
+                <Awards />
                 <ProjectSection />
                 <TestimonialSlider />
                 <QualitySection />
